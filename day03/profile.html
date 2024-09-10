@@ -16,15 +16,40 @@
       td,
       th {
         border: 1px solid #333;
+        /* padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px; */
+        padding: 10px;
+      }
+      th {
+        background-color: #eee;
+      }
+      .profile {
+        width: 150px;
+      }
+      td img {
+        width: 100%;
       }
     </style>
   </head>
   <body>
     <h1>이력서</h1>
     <table>
+      <colgroup>
+        <col class="profile" />
+        <col />
+        <col />
+        <col />
+        <col />
+        <col />
+        <col />
+      </colgroup>
       <tbody>
         <tr>
-          <td rowspan="5">이미지 들어갈 곳</td>
+          <td rowspan="5">
+            <img src="images/jang.jpg" alt="" />
+          </td>
           <th>이름</th>
           <td>장성호</td>
           <th>영문</th>
