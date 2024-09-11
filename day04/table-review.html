@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        /* border-width: 4px;
+        border-color: #ccc;
+        border-style: solid; */
+        border-top: 2px solid #333;
+        width: 800px;
+        border-collapse: collapse;
+      }
+      td,
+      th {
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        /* padding-top: 15px;
+        padding-bottom: 15px; */
+        padding: 15px 10px;
+      }
+      .last {
+        border-right: none;
+      }
+      .padding-box {
+        margin: 20px;
+        border: 1px solid #f00;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <span class="padding-box">패딩</span>
+    <span class="padding-box">패딩</span>
+    <a href="">링크</a>
+    <strong>강조</strong>
+    <em>의미상 강조</em> -->
+
+    <a href="" class="padding-box">패딩</a>
+    <a href="" class="padding-box">패딩</a>
+
+    <table>
+      <colgroup>
+        <col />
+        <col />
+        <col />
+        <col />
+      </colgroup>
+      <thead>
+        <tr>
+          <th>항목</th>
+          <th>2023</th>
+          <th>2022</th>
+          <th class="last">2021</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>매출액</th>
+          <td>1,858,984</td>
+          <td>1,858,984</td>
+          <td class="last">1,858,984</td>
+        </tr>
+        <tr>
+          <th>영업이익</th>
+          <td>1,858,984</td>
+          <td>1,858,984</td>
+          <td class="last">1,858,984</td>
+        </tr>
+        <tr>
+          <th>법인세 차감전 순이익</th>
+          <td>1,858,984</td>
+          <td>1,858,984</td>
+          <td class="last">1,858,984</td>
+        </tr>
+        <tr>
+          <th>당기순이익</th>
+          <td>1,858,984</td>
+          <td>1,858,984</td>
+          <td class="last">1,858,984</td>
+        </tr>
+        <tr>
+          <th>총포괄이익</th>
+          <td>1,858,984</td>
+          <td>1,858,984</td>
+          <td class="last">1,858,984</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
