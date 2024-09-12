@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <label for="userId">ID</label>
+    <input type="text" placeholder="아이디" id="userId" /> -->
+    <form action="login.html" method="get">
+      <div>
+        <label>
+          <span>ID</span>
+          <input type="text" maxlength="10" name="userId" required />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>PASSWORD</span>
+          <input type="password" name="userPw" required />
+        </label>
+      </div>
+      <div>
+        <input type="file" accept="image/jpg,image/gif,image/png" />
+      </div>
+      <input type="hidden" name="address" value="파주시" />
+      <button>로그인</button>
+    </form>
+  </body>
+</html>
